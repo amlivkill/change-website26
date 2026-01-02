@@ -195,7 +195,7 @@ const ChatBot: React.FC = () => {
       const systemInstruction = `You are "CHANGE Sahayak", the AI assistant for CHANGE Foundation. Respond in ${language === 'hi' ? 'Hindi' : 'English'}. Be helpful, professional, and rural-friendly.`;
 
       const chat = ai.chats.create({
-        model: 'gemini-3-flash-preview',
+        model: 'gemini-1.5-flash-latest',
         config: { systemInstruction },
       });
 
